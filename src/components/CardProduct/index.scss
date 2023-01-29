@@ -1,0 +1,27 @@
+.card {
+    width: 100%;
+    background-color: #FFF;
+    padding: 15px;
+    border-radius: 15px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+
+    &-cover {
+        img {
+            width: 100%;
+            height: 320px;
+            object-fit: cover;
+            object-position: center;
+            border-radius: 10px;
+        }
+    }
+
+    &-content {
+        padding: 10px 0;
+
+        .title {
+            font-size: 14px;
+            font-weight: 500;
+            color: #000000;
+        }
+    }
+}
